@@ -1,0 +1,162 @@
+.cotainery {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_1{
+    width:50%;
+    height: 85%;
+    margin-top: 1rem;
+    display: flex;
+    border-radius: 4%;
+    box-shadow: 1px 1px 6px 3px whitesmoke;
+    flex-direction: column;
+    padding: 0.5em;
+    background-color: #ffffff52;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:0.7rem;
+    color:#704e2e;
+
+}
+label{
+    font-size: 1.5rem;
+    text-align: left;
+}
+.validation{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.tick{
+
+}
+input{
+    width: 60%;
+    height:2.5rem;
+    outline: none;
+    border-radius: 6px;
+    border: none;
+    color:#704e2e;
+    text-align:center;
+}
+textarea{
+        width: 70%;
+            height: 5.5rem;
+            outline: none;
+            border-radius: 6px;
+            border: none;
+            resize: none;
+            color: #704e2e;
+            text-align: center;
+}
+.submit{
+    width: 40%;
+    height:3rem;
+    border-radius: 5px;
+    background-color: #704e2e;
+    color: #fff;
+    text-align: center;
+    border:none;
+    transition: all 1.5s ease-in;
+}
+.submit:hover{
+    transform: scale(1.04);
+    box-shadow: 1px 1px 6px 3px #704e2e;
+    border-radius: 5px;
+    background-color: #ffdb58;
+    color: #fff;
+    text-align: center;
+    transition: all 1.5s ease-out;
+    background-color: #45a049;
+}
+.error{
+    color:red;
+    margin-top: -1rem;
+    background-color: rgba(255, 0, 0, 0.493);
+    position: relative;
+    z-index: 44;
+    width: 40%;
+}
+@media only screen and (max-width: 580px),
+(max-width: 400px) {
+    .cotainery {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .form_1 {
+            width: 80%;
+            height: 65%;
+            margin-top: 1rem;
+            display: flex;
+            border-radius: 4%;
+            box-shadow: 1px 1px 6px 3px whitesmoke;
+            flex-direction: column;
+            padding: 0.5em;
+            background-color: #ffffff52;
+        }
+    
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 0.7rem;
+            color: #704e2e;
+    
+        }
+    
+        label {
+            font-size: 1.5rem;
+            text-align: left;
+        }
+    
+        .validation {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        input {
+            width: 80%;
+            height: 2.5rem;
+            outline: none;
+            border-radius: 6px;
+            border: none;
+            color: #704e2e;
+            text-align: center;
+        }
+    
+        textarea {
+            width: 90%;
+            height: 5.5rem;
+            outline: none;
+            border-radius: 6px;
+            border: none;
+            
+            resize: none;
+            color: #704e2e;
+            text-align: center;
+        }
+    
+        .submit {
+            width: 40%;
+            height: 3rem;
+            border-radius: 5px;
+            background-color: #704e2e;
+            color: #fff;
+            text-align: center;
+            border: none;
+            transition: all 1.5s ease-in;
+        }
+
+}
